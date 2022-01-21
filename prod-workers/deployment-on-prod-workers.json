@@ -1,0 +1,4 @@
+[
+  {"op": "add", "path": "/spec/template/spec/nodeSelector", "value": {"dedicated": "production"}},
+  {"op": "add", "path": "/spec/template/spec/tolerations",  "value": [{ "key": "dedicated", "operator": "Equals", "value": "production", "effect": "NoSchedule" }]}
+]
